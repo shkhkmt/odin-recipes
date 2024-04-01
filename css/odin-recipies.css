@@ -1,0 +1,65 @@
+h1 
+{ 
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 900;
+    font-size: 23px; 
+    font-style: normal; 
+    font-variant: normal; 
+    line-height: 23px; 
+} 
+h2 
+{ 
+    font-family: "Titillium Web", sans-serif; 
+    font-size: 17px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 700; 
+    line-height: 23px; } 
+p { 
+    font-family: "Titillium Web", sans-serif; font-size: 14px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 400; 
+    line-height: 23px; } 
+blockquote { 
+    font-family: f"Titillium Web", sans-serif; 
+    font-size: 17px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 400; 
+    line-height: 23px; } 
+pre {    
+    font-family: "Titillium Web", sans-serif; 
+    font-size: 11px; 
+    font-style: oblique;
+    font-variant: normal; 
+    font-weight: 700; 
+    line-height: 23px; }
+
+
+
+body {
+    background-color:#ffffff;/*this is a fallback color*/ 
+    font-size: 21px;
+    color: #000000;  
+    font-family: "Titillium Web", sans-serif; 
+}
+
+a:any-link {
+    color: hsl(var(--hs-interactive), var(--l-interactive));
+    text-decoration: underline;
+    text-decoration-thickness: 0.125em;
+  }
+  
+  a:any-link:hover {
+    background-color: hsl(var(--hs-interactive), var(--l-interactive));
+    color: hsl(var(--hs-static), var(--l-highest));
+    text-decoration-line: none;
+  }
+  body {
+    background-color: hsl(var(--hs-static), var(--l-highest));
+    color: hsl(var(--hs-static), var(--l-lowest));
+    font-size: var(--f-size);
+    font-family: var(--f-body);
+    line-height: var(--f-line);
+  }
