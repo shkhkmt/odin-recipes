@@ -1,42 +1,47 @@
+h1, 
+h2, 
+p, 
+blockquote, 
+pre {
+    font-family: "Titillium Web", sans-serif;;
+}
+
 h1 
 { 
-    font-family: "Titillium Web", sans-serif;
     font-weight: 900;
     font-size: 23px; 
     font-style: normal; 
     font-variant: normal; 
     line-height: 23px; 
 } 
+
 h2 
 { 
-    font-family: "Titillium Web", sans-serif; 
     font-size: 17px; 
     font-style: normal; 
     font-variant: normal; 
     font-weight: 700; 
     line-height: 23px; } 
 p { 
-    font-family: "Titillium Web", sans-serif; font-size: 14px; 
+    font-size: 14px; 
     font-style: normal; 
     font-variant: normal; 
     font-weight: 400; 
     line-height: 23px; } 
+
 blockquote { 
-    font-family: f"Titillium Web", sans-serif; 
     font-size: 17px; 
     font-style: normal; 
     font-variant: normal; 
     font-weight: 400; 
     line-height: 23px; } 
+
 pre {    
-    font-family: "Titillium Web", sans-serif; 
     font-size: 11px; 
     font-style: oblique;
     font-variant: normal; 
     font-weight: 700; 
     line-height: 23px; }
-
-
 
 body {
     background-color:#ffffff;/*this is a fallback color*/ 
