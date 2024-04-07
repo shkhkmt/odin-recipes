@@ -4,7 +4,6 @@ p,
 blockquote, 
 pre {
     font-family: "Titillium Web", sans-serif;
-    text-align: center;
     }
 
 h1 
@@ -14,21 +13,26 @@ h1
     font-style: normal; 
     font-variant: normal; 
     line-height: 23px; 
+    text-align: center;
 } 
 
-h2 
-{ 
+h2 { 
     font-size: 17px; 
     font-style: normal; 
     font-variant: normal; 
     font-weight: 700; 
-    line-height: 23px; } 
+    line-height: 23px;
+    text-align: left;
+} 
 p { 
     font-size: 14px; 
     font-style: normal; 
     font-variant: normal; 
     font-weight: 400; 
-    line-height: 23px; } 
+    line-height: 23px; 
+    text-align: left;
+}
+
 
 blockquote { 
     font-size: 17px; 
@@ -49,7 +53,9 @@ body {
     font-size: 21px;
     color: #000000;  
     font-family: "Titillium Web", sans-serif; 
-}
+    align-content: center;
+    text-align: left;
+    }
 
 a:any-link {
     color: hsl(var(--hs-interactive), var(--l-interactive));
@@ -70,6 +76,9 @@ a:any-link {
     line-height: var(--f-line);
   }
 
- img {
-    align-content: center;
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%; 
  }
