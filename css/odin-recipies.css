@@ -3,8 +3,9 @@ h2,
 p, 
 blockquote, 
 pre {
-    font-family: "Titillium Web", sans-serif;;
-}
+    font-family: "Titillium Web", sans-serif;
+    text-align: center;
+    }
 
 h1 
 { 
@@ -68,3 +69,7 @@ a:any-link {
     font-family: var(--f-body);
     line-height: var(--f-line);
   }
+
+ img {
+    align-content: center;
+ }
